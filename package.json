@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "preview": "node ci/ci.js preview",
+    "upload": "node ci/ci.js upload"
+  },
+  "dependencies": {
+    "miniprogram-ci": "^2.0.10"
+  }
+}

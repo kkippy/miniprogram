@@ -1,0 +1,49 @@
+{
+  "entryPagePath":  "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/cate/cate",
+    "pages/cart/cart",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "项目计划书",  
+    "navigationBarBackgroundColor": "#42a5f5", 
+    "enablePullDownRefresh": true, 
+    "backgroundColor": "#efefef"  
+  },
+  "tabBar": {
+      "list": [
+          {
+            "text": "首页",
+            "pagePath": "pages/index/index",
+            "iconPath": "/assets/home.png",
+            "selectedIconPath": "/assets/home-active.png"
+          },
+          {
+            "text": "购物车",
+            "pagePath":  "pages/cart/cart",
+            "iconPath": "/assets/cart.png",
+            "selectedIconPath": "/assets/cart-active.png"
+          },  
+          {
+            "text": "分类",
+            "pagePath":"pages/cate/cate",
+            "iconPath": "/assets/cate.png",
+            "selectedIconPath": "/assets/cate-active.png"
+          },
+          {
+            "text": "个人",
+            "pagePath":"pages/profile/profile",
+            "iconPath": "/assets/profile.png",
+            "selectedIconPath": "/assets/profile-active.png"
+          }
+
+      ],
+      "selectedColor": "#90caf9"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
