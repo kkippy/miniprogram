@@ -1,2 +1,4 @@
 <!--pages/cate/cate.wxml-->
-<text>pages/cate/cate.wxml</text>
+<view class="container">
+    <view class="box">的不了</view>
+</view>
