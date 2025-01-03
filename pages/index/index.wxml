@@ -1,18 +1,82 @@
 <!-- swipper -->
 <view class="swipper">
+    <swiper autoplay interval="2000" indicator-dots 
+    circular
+    indicator-color="#fff"
+    indicator-active-color="#42a5f5">
+        <swiper-item>
+            <image src="/assets/banner1.jpg" mode="aspectFill"/>
+        </swiper-item>
+        <swiper-item>
+            <image src="/assets/banner2.jpg" mode="aspectFill"/>
+        </swiper-item>
+        <swiper-item>
+            <image src="/assets/banner3.jpg" mode="aspectFill" />
+        </swiper-item>
+        <swiper-item>
+            <image src="/assets/banner4.jpg" mode="aspectFill"/>
+        </swiper-item>
+    </swiper>
 </view>
 
 <!-- info -->
 <view class="info">
-
+    <text>风光摄影</text>
+    <text>人像摄影</text>
+    <text>图片精选</text>
 </view>
 
 <!-- nav-goods -->
 <view class="nav-goods">
-
+    <view>
+        <navigator url="/pages/list/list" class="nav-item">
+            <image src="/assets/picture.png" mode=""/>
+            <text>日常扫街</text>
+        </navigator>
+    </view>
+    <view>
+        <navigator url="/pages/list/list" class="nav-item">
+            <image src="/assets/picture.png" mode=""/>
+            <text>爬山</text>
+        </navigator>
+    </view>
+    <view>
+        <navigator url="/pages/list/list" class="nav-item">
+            <image src="/assets/picture.png" mode=""/>
+            <text>旅游</text>
+        </navigator>
+    </view>
+    <view>
+        <navigator url="/pages/list/list" class="nav-item">
+            <image src="/assets/picture.png" mode=""/>
+            <text>往期汇总</text>
+        </navigator>
+    </view>
 </view>
 
 <!-- hot-goods -->
 <view class="hot-goods">
-
+    <scroll-view scroll-x class="scrollX">
+        <view >
+            <view class="goods-item"> 
+                <image src="/assets/swip1.jpg" mode="aspectFill"/>
+                <text>珍珠泉</text>
+                <text>24/08/31</text>
+            </view>
+        </view>   
+        <view >
+            <view class="goods-item"> 
+                <image src="/assets/swip2.jpg" mode="aspectFill"/>
+                <text>珍珠泉</text>
+                <text>24/08/31</text>
+            </view>
+        </view> 
+        <view >
+            <view class="goods-item"> 
+                <image src="/assets/swip3.jpg" mode="aspectFill"/>
+                <text>栖霞山</text>
+                <text>24/08/31</text>
+            </view>
+        </view> 
+    </scroll-view>
 </view>

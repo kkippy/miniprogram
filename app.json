@@ -2,6 +2,7 @@
   "entryPagePath":  "pages/index/index",
   "pages": [
     "pages/index/index",
+    "pages/list/list",
     "pages/cate/cate",
     "pages/cart/cart",
     "pages/profile/profile"
