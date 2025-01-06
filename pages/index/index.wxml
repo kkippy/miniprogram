@@ -21,10 +21,17 @@
 
 <!-- info -->
 <view class="info">
-    <text>风光摄影</text>
-    <text>人像摄影</text>
-    <text>图片精选</text>
+    <text> <text class="iconfont icon-fengguang" ></text>  风光摄影</text>
+    <text> <text class="iconfont icon-renxiang"></text>  人像摄影</text>
+    <text> <text class="iconfont icon-jingxuan"></text>  图片精选</text>
+    <text> <text class="iconfont icon-yijianfankui"></text>  好评如潮</text>
 </view>
+
+<view mark:parentId='100'>
+    <button mark:id='10' catch:tap='handler'></button>
+</view>
+
+<input type="text" bindinput="getInput"/>
 
 <!-- nav-goods -->
 <view class="nav-goods">
